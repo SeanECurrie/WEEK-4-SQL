@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "connectString": "postgres://djhqbwsc:hg8scMpJZM8IV9zuumXlfOJInaY2zjaq@peanut.db.elephantsql.com/djhqbwsc",
+            "name": "movie-theater-homework"
+        }
+    ]
+}
