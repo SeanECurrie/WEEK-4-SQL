@@ -108,7 +108,7 @@ def peak_pokemon():
     img.save(f'temp_ascii.png')
 
 
-    return ImageToAscii(imagePath='/Users/seancurrie/Documents/Coding-Temple/WEEK-4-SQL/DAY-4/temp_ascii.png')
+    return ImageToAscii(imagePath='./temp_ascii.png')
     
 
             
