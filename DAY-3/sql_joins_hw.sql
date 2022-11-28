@@ -46,6 +46,8 @@ ON staff.staff_id=payment.staff_id
 GROUP BY first_name, last_name
 ORDER BY COUNT(payment_date) DESC;
 
+-- Answer : Jon Stephens
+
 -- 6. How many movies of each rating are
 -- there?
 SELECT rating, COUNT(rating)
@@ -70,6 +72,19 @@ WHERE amount > 6.99;
 
 -- 8. How many free rentals did our store give away?
 
+-- So not sure where free rentals are kept track of. So this is for thing that have never been returned.
+
+SELECT return_date
+FROM rental
+WHERE return_date IS Null;
+
+-- So there were  183 movies not returned...
+
+-- Otherwise since everything else was paid for:
+
 SELECT COUNT(amount)
 FROM payment 
 WHERE amount = 0;
+
+-- Answer is 0
+
