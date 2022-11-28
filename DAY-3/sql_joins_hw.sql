@@ -56,7 +56,7 @@ ORDER BY COUNT(rating) DESC;
 -- 7.Show all customers who have made a single payment
 -- above $6.99 (Use Subqueries)
 
-SELECT last_name, payment_id, amount
+SELECT DISTINCT(last_name), payment_id, amount
 FROM (
     SELECT last_name, payment_id, amount
     FROM payment
@@ -69,3 +69,7 @@ WHERE amount > 6.99;
 
 
 -- 8. How many free rentals did our store give away?
+
+SELECT COUNT(amount)
+FROM payment 
+WHERE amount = 0;
