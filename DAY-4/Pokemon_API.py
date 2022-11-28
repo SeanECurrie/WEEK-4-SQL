@@ -19,9 +19,10 @@
 # DATABASE BY CREATING A TEMP PNG IMAGE
 
 
-
-
-################
+#################### TO RUN PLEASE INSTALL #########################
+# pip3 install git+https://github.com/aypro-droid/image-to-ascii.git
+# pip3 install -U git+https://github.com/jazzband/prettytable
+####################################################################
 import sys
 import requests
 from prettytable import PrettyTable
