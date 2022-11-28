@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "li2283-18.members.linode.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "test_db",
+            "database": "test_db",
+            "username": "postgres",
+            "password": "CodingTemple4L.."
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "CAR-DEALERSHIP-WEEK-4",
+            "connectString": "postgres://mapupics:4EGF57iFBU6iB1IWNEO1I57V_md6pzu-@peanut.db.elephantsql.com/mapupics"
+        }
+    ]
+}
